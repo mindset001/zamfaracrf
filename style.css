@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +21,7 @@ nav {
   align-items: center; */
   padding-top: 20px;
   height: 4px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   margin-right: 50px;
 }
 
@@ -50,6 +51,7 @@ nav ul a {
 li{
   list-style-type: decimal;
   margin-left: 50px;
+  font-family: 'Belanosima', sans-serif;
 }
 .container img {
   width: 80%;
@@ -58,17 +60,20 @@ li{
 
 .hero-text {
   width: 80%;
+  font-family: 'ubuntu';
 }
 
 .hero-text h1 {
   font-size: 3.3rem;
   margin-bottom: 12px;
   color: #8b4513;
+  font-family: 'Belanosima', sans-serif;
 }
 
 .hero-text p {
   font-size: 1.1rem;
   margin-bottom: 12px;
+  font-family: 'Belanosima', sans-serif;
 }
 
 button {
@@ -84,6 +89,7 @@ button {
   text-align: center;
   box-shadow: 0em -0.2rem 0em #e2e273 inset;
   transition: color 3s ease-in-out;
+  font-family: 'Belanosima', sans-serif;
 }
 
 button:hover {
