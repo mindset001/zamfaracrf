@@ -47,6 +47,10 @@ nav ul a {
   gap: 40px;
 }
 
+li{
+  list-style-type: decimal;
+  margin-left: 50px;
+}
 .container img {
   width: 80%;
   height: 400px;
